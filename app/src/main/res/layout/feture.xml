@@ -1,0 +1,116 @@
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="6dp"
+            android:contentDescription="polygon_2"
+            android:src="@drawable/arrow_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/Logo"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="polygon_2"
+            android:src="@drawable/group_"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/gerb"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gerb"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="@id/Logo"/>
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="415dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/line_"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,ObsoleteLayoutParam"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <ImageView
+            android:id="@+id/ramka"
+            android:layout_width="420dp"
+            android:layout_height="750dp"
+            android:clickable="true"
+            android:contentDescription="Ramka"
+            android:focusable="true"
+            android:src="@drawable/ny"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/line"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+        <ScrollView
+            android:id="@+id/mili_scroll"
+            android:layout_width="380dp"
+            android:layout_height="708dp"
+            android:background="@drawable/mili"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/ramka"
+            app:layout_constraintVertical_bias="1.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <!-- Здесь будут добавляться ваши записи -->
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/sobit"
+            android:layout_width="307dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-75dp"
+            android:clickable="true"
+            android:contentDescription="Ramka"
+            android:focusable="true"
+            android:src="@drawable/sobitia"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/ramka"
+            app:layout_constraintVertical_bias="0.103" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

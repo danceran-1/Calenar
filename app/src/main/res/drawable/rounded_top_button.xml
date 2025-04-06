@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/for_wek"/> <!-- Цвет фона кнопки -->
+    <corners android:topLeftRadius="15dp" android:topRightRadius="15dp" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp"/> <!-- Закругление углов -->
+</shape>

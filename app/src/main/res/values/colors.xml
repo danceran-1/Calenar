@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mainBgcolor">#F6F6F6</color>
+    <color name="blue">#40E0D0</color>
+    <color name="bluedark">#004F7B </color>
+    <color name="colorPressed">#00B4D8 </color>
+    <color name="Normal">#00B4D8 </color>
+    <color name="Error">#FA4A0C </color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="_bg__iphone_16_pro___3_ek2_color">#F0FCFF</color>
+    <color name="rectangle_51_color">#1BD7E0</color>
+    <color name="_______color">#295B75</color>
+    <color name="rectangle_53_color">#00B4D8</color>
+    <color name="line_7_color">#0077B6</color>
+    <color name="ellipse_2_color">#CAF0F8</color>
+    <color name="for_wek">#00B4D8</color>
+    <color name="_bg__iphone_16_pro___6_ek2_color">#EBEBEB</color>
+    <color name="rectangle_62_color">#1BD7E0</color>
+    <color name="_________color">#295B75</color>
+    <color name="rectangle_78_color">#CAF0F8</color>
+    <color name="rectangle_78_ek1_color">#FFFFFF</color>
+
+</resources>

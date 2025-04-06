@@ -1,0 +1,981 @@
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="6dp"
+            android:contentDescription="polygon_2"
+            android:src="@drawable/arrow_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <ImageView
+            android:id="@+id/elipse"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/ellipse_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/name_maouth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Название месяца"
+            android:gravity="center"
+            android:text="16"
+            android:textSize="70sp"
+            app:layout_constraintBottom_toBottomOf="@+id/elipse"
+            app:layout_constraintEnd_toEndOf="@+id/elipse"
+            app:layout_constraintStart_toStartOf="@+id/elipse"
+            app:layout_constraintTop_toTopOf="@+id/elipse"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.44" />
+
+        <TextView
+            android:id="@+id/nov1"
+            android:layout_width="97dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="-90dp"
+            android:contentDescription="vector_1"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:fontFamily="@font/fonts_medium"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+        <TextView
+            android:id="@+id/nov"
+            android:layout_width="97dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="-2dp"
+            android:contentDescription="vector_1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/fonts_medium"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+
+        <ImageView
+            android:id="@+id/R_up"
+            android:layout_width="170dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="-85dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/r_up"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point2"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="61dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+
+        <ImageView
+            android:id="@+id/R2"
+            android:layout_width="84dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="-27dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/rup2"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="34dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/Rdown2"
+            android:layout_width="84dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="-27dp"
+            android:layout_marginTop="118dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/rdown2"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point5"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="115dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/Ldown2"
+            android:layout_width="84dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="-217dp"
+            android:layout_marginTop="118dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/leftdown2"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point6"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="-215dp"
+            android:layout_marginTop="115dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/Lup2"
+            android:layout_width="84dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="-217dp"
+            android:layout_marginTop="17dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/leftup2"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point10"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="-214dp"
+            android:layout_marginTop="34dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/L_up"
+            android:layout_width="179dp"
+            android:layout_height="66dp"
+            android:layout_marginEnd="-85dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/l_up"
+            app:layout_constraintEnd_toStartOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point9"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="-245dp"
+            android:layout_marginTop="61dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/ptymo1"
+            android:layout_width="86dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="76.5dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/prymol"
+            app:layout_constraintEnd_toStartOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point8"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="-245dp"
+            android:layout_marginTop="74.3dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/ptymo2"
+            android:layout_width="82dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="76.5dp"
+            android:layout_marginEnd="-237dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/prymol"
+            app:layout_constraintEnd_toStartOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point3"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="74dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/r_down"
+            android:layout_width="170dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="-85dp"
+            android:layout_marginTop="90dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/r_down"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point4"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="88.5dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/LDown"
+            android:layout_width="179dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="-85dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/l_down"
+            app:layout_constraintEnd_toStartOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+        <ImageView
+            android:id="@+id/point7"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="-245dp"
+            android:layout_marginTop="88.5dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/point"
+            app:layout_constraintStart_toEndOf="@id/elipse"
+            app:layout_constraintTop_toTopOf="@id/elipse" />
+
+
+        <ImageView
+            android:id="@+id/Big"
+            android:layout_width="750dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="-4.5dp"
+            android:layout_marginBottom="-30dp"
+            android:contentDescription="Big Image"
+            android:src="@drawable/nwe"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.709" />
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/verx"-->
+        <!--            android:layout_width="37dp"-->
+        <!--            android:layout_height="27dp"-->
+        <!--            android:layout_marginStart="-205dp"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:contentDescription="vector_1"-->
+        <!--            android:src="@drawable/verx"-->
+        <!--            app:layout_constraintStart_toEndOf="@id/ramka"-->
+        <!--            app:layout_constraintTop_toTopOf="@id/ramka" />-->
+
+
+
+        <ImageView
+            android:id="@+id/ramka"
+            android:layout_width="377dp"
+            android:layout_height="541dp"
+            android:layout_marginBottom="-50dp"
+            android:clickable="true"
+            android:contentDescription="Ramka"
+            android:focusable="true"
+            android:src="@drawable/ramka"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.686" />
+
+
+
+        <ImageView
+            android:id="@+id/ponedelnik"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="55dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/main"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="129dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/plus"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/write"
+            android:layout_width="58dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="66dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/write"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="-226dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/kubFrame"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp">
+
+                <ImageView
+                    android:id="@+id/kub"
+                    android:layout_width="38dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Куб"
+                    android:src="@drawable/kubik" />
+
+                <TextView
+                    android:id="@+id/kubText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- Повторите FrameLayout для оставшихся дней недели, изменив id на kubFrame2, kub2, kubText2 и так далее -->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/krishka1"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="15dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/krushka"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/pn"
+            android:layout_width="97dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="47dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/name1"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/vtornik"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="13dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/main"
+            app:layout_constraintEnd_toEndOf="@+id/ramka"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/ponedelnik"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/write1"
+            android:layout_width="58dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="66dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/write"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="-226dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/kubFrame1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp">
+
+                <ImageView
+                    android:id="@+id/kub1"
+                    android:layout_width="38dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Куб"
+                    android:src="@drawable/kubik" />
+
+                <TextView
+                    android:id="@+id/kubText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- Повторите FrameLayout для оставшихся дней недели, изменив id на kubFrame2, kub2, kubText2 и так далее -->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/krishka2"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="194.2dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/krushka"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/vt"
+            android:layout_width="97dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="47dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/vtornike"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/ponedelnik2"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="184dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/main"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/write2"
+            android:layout_width="58dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="195dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/write"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="26dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/kubFrame2"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp">
+
+                <ImageView
+                    android:id="@+id/kub2"
+                    android:layout_width="38dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Куб"
+                    android:src="@drawable/kubik" />
+
+                <TextView
+                    android:id="@+id/kubText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- Повторите FrameLayout для оставшихся дней недели, изменив id на kubFrame2, kub2, kubText2 и так далее -->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/krishka3"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="128dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/krushka"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/pn2"
+            android:layout_width="97dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="175dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/sreada"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/ponedelnik3"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="184dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/main"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/write3"
+            android:layout_width="58dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="195dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/write"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="26dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/kubFrame3"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp">
+
+                <ImageView
+                    android:id="@+id/kub3"
+                    android:layout_width="38dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Куб"
+                    android:src="@drawable/kubik" />
+
+                <TextView
+                    android:id="@+id/kubText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- Повторите FrameLayout для оставшихся дней недели, изменив id на kubFrame2, kub2, kubText2 и так далее -->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/krishka4"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="128dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/krushka"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/pn3"
+            android:layout_width="97dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="175dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/fourhday"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/ponedelnik4"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="19dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/main"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toBottomOf="@+id/ponedelnik2" />
+
+        <ImageView
+            android:id="@+id/write4"
+            android:layout_width="58dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="322dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/write"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="288dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/kubFrame4"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp">
+
+                <ImageView
+                    android:id="@+id/kub4"
+                    android:layout_width="38dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Куб"
+                    android:src="@drawable/kubik" />
+
+                <TextView
+                    android:id="@+id/kubText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- Повторите FrameLayout для оставшихся дней недели, изменив id на kubFrame2, kub2, kubText2 и так далее -->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/krishka5"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="257dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/krushka"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/pn4"
+            android:layout_width="97dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="303dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/drink"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/ponedelnik5"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="19dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/main"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toBottomOf="@+id/ponedelnik2" />
+
+        <ImageView
+            android:id="@+id/write5"
+            android:layout_width="58dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="255dp"
+            android:layout_marginTop="322dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/write"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="288dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/kubFrame5"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp">
+
+                <ImageView
+                    android:id="@+id/kub5"
+                    android:layout_width="38dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Куб"
+                    android:src="@drawable/kubik" />
+
+                <TextView
+                    android:id="@+id/kubText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- Повторите FrameLayout для оставшихся дней недели, изменив id на kubFrame2, kub2, kubText2 и так далее -->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/krishka6"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="257dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/krushka"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/pn5"
+            android:layout_width="97dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="303dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/chiil"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+        <ImageView
+            android:id="@+id/ponedelnik6"
+            android:layout_width="250dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="132dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/bbbb"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintStart_toStartOf="@+id/ramka"
+            app:layout_constraintTop_toBottomOf="@+id/ponedelnik2" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-199dp"
+            android:layout_marginTop="520dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/kubFrame6"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp">
+
+                <ImageView
+                    android:id="@+id/kub6"
+                    android:layout_width="38dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="18dp"
+                    android:contentDescription="Куб"
+                    android:src="@drawable/kubik" />
+
+                <TextView
+                    android:id="@+id/kubText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- Повторите FrameLayout для оставшихся дней недели, изменив id на kubFrame2, kub2, kubText2 и так далее -->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/krishka7"
+            android:layout_width="229.5dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="-307dp"
+            android:layout_marginTop="426dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="vector_1"
+            android:src="@drawable/laim"
+            app:layout_constraintStart_toEndOf="@id/ramka"
+            app:layout_constraintTop_toTopOf="@id/ramka"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/pn6"
+            android:layout_width="97dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="428dp"
+            android:contentDescription="vector_1"
+            android:src="@drawable/day"
+            app:layout_constraintStart_toStartOf="@+id/krishka1"
+            app:layout_constraintTop_toTopOf="@id/ramka" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

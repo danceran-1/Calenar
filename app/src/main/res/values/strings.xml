@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="group_text">Месяц</string>
+    <string name="star_text">Неделя</string>
+    <string name="Logo">Календарь</string>
+    <string name="Name_of_group1">1</string>
+    <string name="Name_of_group2">2</string>
+
+    <string name="Name_of_facultet">Октябрь</string>
+    <string name="Name_of_back">Назад</string>
+    <string name="aaaa">aaaaaaa</string>
+    <string name="Just_text">Тепреь ты староста</string>
+    <string name="log">Ваш пароль</string>
+    <string name="Input">Введите пароль</string>
+</resources>

@@ -1,0 +1,11 @@
+<!-- button_dark_effect.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние нажатия -->
+    <item android:state_pressed="true">
+        <color android:color="#004F7B"/> <!-- Темный цвет при нажатии -->
+    </item>
+    <!-- Обычное состояние -->
+    <item>
+        <color android:color="#0077B6"/> <!-- Обычный цвет кнопки -->
+    </item>
+</selector>

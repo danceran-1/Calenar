@@ -1,0 +1,324 @@
+<FrameLayout
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/blur_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/calendarExtension"
+        android:layout_width="370dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-80dp"
+        android:visibility="gone"
+        android:background="@drawable/rounded_corners_top"
+        android:scaleType="fitXY"
+
+        android:src="@drawable/rectangle_380" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="120dp"
+        android:contentDescription="polygon_2"
+        android:src="@drawable/group_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/gerb"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="120dp"
+        android:src="@drawable/gerb"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@id/Logo"/>
+
+    <ImageView
+        android:id="@+id/arrow_back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="polygon_2"
+        android:src="@drawable/arrow_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Основное содержимое вашего макета -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <!-- Horizontal LinearLayout for pen and calendar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-65dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/calendar"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/_________"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="415dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="-300dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/line_"
+                tools:ignore="ObsoleteLayoutParam" />
+
+
+
+        </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="162dp"
+                android:layout_marginTop="-130dp"
+                android:src="@drawable/menu_burger_2" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/rec"
+                android:layout_width="388.92dp"
+                android:layout_height="56.21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="11dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/receee" />
+
+            <ImageView
+                android:id="@+id/heart"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="55dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/calendar_heart_1" />
+
+            <!-- Spinner для выбора года -->
+
+
+            <ImageButton
+                android:id="@+id/left"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="-4dp"
+                android:layout_toStartOf="@+id/month_name"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@drawable/button_dark_effect"
+                android:backgroundTintMode="src_in"
+                android:src="@drawable/polygon_2" />
+
+            <ImageButton
+                android:id="@+id/right"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="-17dp"
+                android:layout_marginTop="56dp"
+                android:layout_toEndOf="@+id/month_name"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@drawable/button_dark_effect"
+                android:backgroundTintMode="src_in"
+                android:src="@drawable/polygon_1" />
+
+
+            <FrameLayout
+                android:layout_width="53dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="47dp"
+                android:layout_toEndOf="@id/right">
+
+                <Spinner
+                    android:id="@+id/year_spinner"
+                    android:layout_width="20dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/polygon_3" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/month_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:fontFamily="@font/fonts_bold"
+                android:layout_marginTop="60dp"
+                android:text="Октябрь"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+        <!-- GridLayout for the calendar (расположен под ImageView) -->
+
+        <ImageView
+            android:id="@+id/p"
+            android:layout_width="370dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/rounded_corners_top"
+            android:scaleType="fitXY"
+            android:src="@drawable/rectangle_380" />
+
+
+        <GridLayout
+            android:id="@+id/calendar_grid"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-270dp"
+            android:background="@android:color/transparent"
+            android:columnCount="7">
+
+        </GridLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="567dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-150dp">
+
+            <ImageView
+                android:id="@+id/pp"
+                android:layout_width="374dp"
+                android:layout_height="335dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/rounded_corners_top"
+                android:scaleType="fitXY"
+                android:src="@drawable/aboba" />
+
+            <ImageView
+                android:id="@+id/inf"
+                android:layout_width="135dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-85dp"
+                android:background="@drawable/rounded_corners_top"
+                android:scaleType="fitXY"
+                android:src="@drawable/inf1123" />
+
+            <TextView
+                android:id="@+id/informat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="210dp"
+                android:fontFamily="@font/fots_regular"
+                android:text="\n15.11.2024"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:id="@+id/event_scroll_view"
+                android:layout_width="340dp"
+                android:layout_height="190dp"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="75dp"
+                android:background="@drawable/rectangle_46"
+                android:paddingBottom="3dp">
+
+                <LinearLayout
+                    android:id="@+id/event_container"
+                    android:layout_width="334dp"
+                    android:layout_height="155dp"
+                    android:layout_marginStart="3dp"
+
+                    android:orientation="vertical">
+                    <!-- Здесь будут добавляться ваши записи -->
+                </LinearLayout>
+            </ScrollView>
+
+            <ImageView
+                android:id="@+id/primo1"
+                android:layout_width="179dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="195dp"
+                android:background="@drawable/rounded_corners_top"
+                android:scaleType="fitXY"
+                android:src="@drawable/rectangle_49" />
+
+            <ImageView
+                android:id="@+id/text"
+                android:layout_width="141dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="195dp"
+                android:background="@drawable/rounded_corners_top"
+                android:scaleType="fitXY"
+                android:src="@drawable/addsvg" />
+
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

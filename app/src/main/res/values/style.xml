@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Стиль для кнопок -->
+    <style name="BlueButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/blue</item> <!-- Синий фон кнопки -->
+        <item name="android:textColor">@color/white</item> <!-- Белый текст -->
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="RoundedDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@drawable/round2</item>
+    </style>
+
+</resources>
